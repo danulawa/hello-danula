@@ -107,6 +107,7 @@ canvas {
   border: 2px solid var(--gold-color);
   background-color: var(--dark-gray-color);
   color: white;
+  text-decoration: none;
   border-radius: 4px;
   padding: 0.5rem;
   text-align: left;
@@ -120,8 +121,23 @@ canvas {
 .button:hover,
 .button:active {
   background-color: var(--gold-color);
+  color: white;
+  text-decoration: none;
 }
 
 .button:focus {
   outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+a:active{
+  color: white;
+  text-decoration: none;
 }
